@@ -63,7 +63,5 @@ Coś dla autorów
 Copyright 2020
 </footer>
 
-</body>
 
-</html>
 
