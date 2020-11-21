@@ -58,6 +58,7 @@ To tu będą umieszczane szybkie informacje
 </footer>
 </article>
 
+
 <footer>
 Coś dla autorów
 Copyright 2020
