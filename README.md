@@ -10,7 +10,7 @@
 
 <body>
 <header>
-<h1 style="color:Tomato;">Witam na mojej stronie</h1>
+  <h1 style="background-color:DodgerBlue;">Witam na mojej stronie</h1>
 </header>
 
 <nav>
