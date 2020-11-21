@@ -30,6 +30,34 @@ To tu umieścimy całość strony - część główna strony
 To tu będą umieszczane szybkie informacje
 </aside>
 
+<section id="main_section">
+
+<article>
+<header>
+<hgroup>
+<h1>Tytuł 1</h1>
+<h2>Od czegoś trzeba zacząć</h2>
+</hgroup>
+</header>
+<p>Pierwszy wpis !</p>
+<footer>
+<p> Napisał Jan Kowalski </p>
+</footer>
+</article>
+
+<article>
+<header>
+<hgroup>
+<h1>Tytuł 2</h1>
+<h2>Od czegoś trzeba zacząć</h2>
+</hgroup>
+</header>
+<p>Pierwszy wpis !</p>
+<footer>
+<p> Napisał Jan Kowalski </p>
+</footer>
+</article>
+
 <footer>
 Coś dla autorów
 Copyright 2020
