@@ -26,9 +26,7 @@ To tu umieścimy całość strony - część główna strony
 </section>
 
 <aside>
-<h4>
-Newsy
-</h4>
+<h4 style="background-color:Tomato;">News</h4>
 To tu będą umieszczane szybkie informacje
 </aside>
 
