@@ -34,7 +34,7 @@ To tu będą umieszczane szybkie informacje
 <article>
 <header>
 <hgroup>
-<h1>Tytuł 1</h1>
+<h1 style="color:Violet;">Tytuł 1</h1>
 <h2>Od czegoś trzeba zacząć</h2>
 </hgroup>
 </header>
