@@ -1,0 +1,14 @@
+
+<table broder="2" color="#FFD700">
+ <tr>DANE OGÓLNE DJ'A<tr>
+<tr> <td> Imiê i nazwisko</td> <td>Marco Benassi Geneser</td></tr>
+ <tr> <td>Data i miejsce urodzenia</td><td>13 lipca 1967, Mediolan </td> </tr>
+<tr><td>Pochodzenie </td><td> W³ochy </td> </tr>
+<tr><td>Gatunki muzyki</td><td>muzyka elektroniczna: electro house, electroclash</td> </tr>
+<tr><td>Aktywnoœæ</td><td>póŸne lata 80. - do dziœ</td> </tr>
+<tr><td>Zamieszkuje</td><td>Reggio Emilii</td></tr>
+<tr><td>Korzenie</td><td>w³osko-duñskie</td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+</table>
+
