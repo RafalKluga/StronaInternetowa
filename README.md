@@ -1,8 +1,14 @@
-<p></p>
-<p></p>
-<header>
-<h1 style="background-color: dodgerblue;" id="h_16577770611611246601105">Witam na mojej stronie</h1>
-</header><nav>
+<!doctype html>
+
+<html lang="pl">
+
+<head>
+<meta charset="utf-8"/>
+<title> Witam na mojej stronie </title>
+    <link href="/css/home.css" rel="stylesheet" type="text/css">
+  </head>
+ <body>
+  
 <ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="newsy.html">Portfolio</a></li>
