@@ -8,7 +8,11 @@
     <h3 style="background-color: orange;">Witam na mojej stronie</h3>
  </title>
     <link href="/css/home.css" rel="stylesheet" type="text/css">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://rafalkluga.github.io/Strona_Internetowa/" />
+    <link href="/css/newsy.css" rel="stylesheet" type="text/css">
+    <link href="/css/hobby.css" rel="stylesheet" type="text/css">
+    <link href="/css/kontakt.css" rel="stylesheet" type="text/css">
+  
+    
   </head>
  <body>
   
