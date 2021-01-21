@@ -1,67 +1,27 @@
-
-<html lang="pl">
-
-<head>
-<meta charset="utf-8"/>
-<title>StronaInternetowa</title>
-<link rel="stylesheet" href="main.css">
-</head>
-
-<body>
+<p></p>
+<p></p>
 <header>
-  <h1 style="background-color:DodgerBlue;">Witam na mojej stronie</h1>
-</header>
-
-<nav>
+<h1 style="background-color: dodgerblue;" id="h_16577770611611246601105">Witam na mojej stronie</h1>
+</header><nav>
 <ul>
-<li> Home</li>
-<li> About Me</li>
-<li> Mail</li>
+<li><a href="#h_16577770611611246601105">Home</a></li>
+<li>Portfolio</li>
+<li>Hobby</li>
+<li>Kontakt</li>
 </ul>
 </nav>
-
-<section>
-To tu umieścimy całość strony - część główna strony
-</section>
-
+<section></section>
 <aside>
-<h4 style="background-color:Orange;">News</h4>
-To tu będą umieszczane szybkie informacje
-</aside>
-
+<h4 style="background-color: orange;">News</h4>
+Najnowsze informację z kraju i ze świata</aside>
+<aside></aside>
+<aside><video width="900" height="500" controls="controls">
+<source src="//www.youtube.com/embed/fn3KWM1kuAw" /></video></aside>
 <section id="main_section">
 
-<article>
-<header>
-<hgroup>
-<h1 style="color:Violet;">Tytuł 1</h1>
-<h2>Od czegoś trzeba zacząć</h2>
 </hgroup>
 </header>
-<p>Pierwszy wpis !</p>
-<footer>
-<p> Napisał Jan Kowalski </p>
-</footer>
+<p></p>
 </article>
-
-<article>
-<header>
-<hgroup>
-<h1>Tytuł 2</h1>
-<h2>Od czegoś trzeba zacząć</h2>
-</hgroup>
-</header>
-<p>Pierwszy wpis !</p>
-<footer>
-<p> Napisał Jan Kowalski </p>
-</footer>
-</article>
-
-
-<footer>
-Coś dla autorów
-Copyright 2020
-</footer>
-
-
+<footer>Rafał Kluga Copyright 2021</footer></section>
 
