@@ -4,7 +4,9 @@
 
 <head>
 <meta charset="utf-8"/>
-<title> Witam na mojej stronie </title>
+<title> 
+    <h3 style="background-color: orange;">Witam na mojej stronie</h3>
+    </title>
     <link href="/css/home.css" rel="stylesheet" type="text/css">
   </head>
  <body>
