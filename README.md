@@ -14,10 +14,8 @@
 <aside>
 <h4 style="background-color: orange;">News</h4>
 Najnowsze informację z kraju i ze świata</aside>
-<aside></aside>
-<aside><video width="900" height="500" controls="controls">
-<source src="//www.youtube.com/embed/fn3KWM1kuAw" /></video></aside>
-<section id="main_section">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fn3KWM1kuAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </hgroup>
 </header>
