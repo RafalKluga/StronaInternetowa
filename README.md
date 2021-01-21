@@ -17,9 +17,6 @@ Najnowsze informację z kraju i ze świata</aside>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fn3KWM1kuAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</hgroup>
-</header>
-<p></p>
-</article>
+
 <footer>Rafał Kluga Copyright 2021</footer></section>
 
