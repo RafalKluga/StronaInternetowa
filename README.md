@@ -6,8 +6,9 @@
 <meta charset="utf-8"/>
 <title> 
     <h3 style="background-color: orange;">Witam na mojej stronie</h3>
-    </title>
+ </title>
     <link href="/css/home.css" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://rafalkluga.github.io/Strona_Internetowa" />
   </head>
  <body>
   
@@ -17,7 +18,7 @@
   <li><a href="hobby.html">Hobby</a></li>
   <li><a href="kontakt.html">Kontakt</a></li>
 </ul>
-</nav>
+
 <section></section>
 <aside>
 <h4 style="background-color: orange;">News</h4>
