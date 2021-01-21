@@ -1,74 +1,37 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Benny Benassi</title>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+  <head>
+    <title>Lestriczka</title>
+    <meta name="description" content="ECS - A-Frame School">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@%5E3.2.x/dist/aframe-animation-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg">
+        <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg">
+      </a-assets>
+      
+     <a-entity id="lightSphere" geometry="primitive: sphere; radius: 0.5" material="shader: flat" light="type: point; color: #FFF" position="-4 3 -4"
+               animation="property: position; to: 8 2.8 -8; dir: alternate; loop: true"></a-entity>
 
+      <a-entity geometry="primitive: box" material="color: red" position="0 0.5 -10"></a-entity>
+      <a-entity geometry="primitive: cylinder" material="color: orange" position="-2 0.5 -8"></a-entity>
+      <a-entity geometry="primitive: sphere" material="color: yellow" position="2 0.5 -8"></a-entity>
+      <a-entity geometry="primitive: torus-knot" material="color: green" position="-4 0.5 -6"></a-entity>
+      <a-entity geometry="primitive: box" material="color: blue" position="4 0.5 -6"></a-entity>
 
-</head>
+      <a-entity id="sky" geometry="primitive: sphere; thetaLength: 90; radius: 30" material="side: back; height: 2048; width: 2048; src: #skyTexture; shader: flat"></a-entity>
 
-<body background="images/tlo.png">
-<table  width="90%" height="150" align="center" border="2" bgcolor="#778899">
-<tr>
-	<td>
-<img src="images/logo.jpg">
-	</td></tr></table>
-<table width="90%" height="90%" border="2" align="center" bgcolor="#778899">
-  <tr align="center">
-    <td bgcolor="#C0C0C0"><marquee behavior="alternate">
-      Witajcie na mojej stronie!
-    </marquee>  </td>
-  </tr>
-  <tr>
-    <td width="20%" height="100%"><p>&nbsp;</p>
+      <a-entity light="type: ambient; color: #222"></a-entity>
+      <a-entity light="type: directional; color: #111" position="-1 1 0"></a-entity>
 
-<p align="center"><span class="style1"><a href="../index.html"><font color="white">Strona główna</font></a></span></p>
+      <a-entity id="ground" geometry="primitive: plane; height: 100; width: 100"
+                material="src: #groundTexture" rotation="-90 0 0"></a-entity>
 
-    <p align="center"><span class="style1"><a href="str1.html"><font color="white">O artyście</font></a></span></p>
-
-    <p align="center" <span class="style1"><a href="str2.html"><font color="white">Dyskografia</font></a></span></p>
-
-    <p align="center"><span class="style1"><a href="str3.html"><font color="white">Ciekawe linki</font></a></span> </p>    
-
-
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
- 
- <br> <br> <br> <br> <br> <br> <br> <br> <br></td>
-    <td width="80%" colspan="3"> <div align="center" class="style1">
-      <p>
-<font size=5> <b>
-<a href="http://www.bennybenassi.com/index.htm">Ofacijalna strona Benny Benassiego:</a>
-<br>
-
-
-<a href="http://www.lastfm.pl/music/Benny+Benassi/+events">Wydarzenia -koncerty</a>
-
-<br>
-Teledyski:
-<a href="http://www.youtube.com/watch?v=xPEbvBxc4xo">Benny Benassi - Every Single Day</a>
-<br>
-
-<a href="http://www.youtube.com/watch?v=nd1b9kVJ6eE&feature=related">Benny Benassi - Satisfaction</a><br>
-
-<a href="http://www.youtube.com/watch?v=-fefd2rxl68&feature=related">Benny Benassi - Illusion</a> 
-<br>
-
-<img src="images/bb9.jpg">
-<img src="images/bb7.jpg">
-<img src="images/bb0.jpg">
-<img src="images/bb8.jpg">
-
-
-
-
-
-
-
-
-</p>
-    
-    </div></td>
-  </tr>
-</table>
-<center><font color="white"> Copyright by=)</font>
-</ body>
+      <a-entity id="text" text="value: Niech siÄ™ stanie Ĺ›wiatĹ‚oĹ›Ä‡!; color: #BBB" 
+                position="2.5 2 -8" scale="8 8 8"></a-entity>
+    </a-scene>
+  </body>
 </html>
